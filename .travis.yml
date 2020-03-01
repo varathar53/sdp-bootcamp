@@ -1,0 +1,5 @@
+language: java
+jdk: openjdk12 # by default, travis runs on Java 8. This forces Java 12.
+before_install:
+  - cd bootcamp
+  - chmod +x gradlew # make sure the Gradle wrapper can be executed
